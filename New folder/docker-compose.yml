@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  distrital01:
+    image: distrital01
+    build:
+      context: .\distrital01
+      dockerfile: Dockerfile
